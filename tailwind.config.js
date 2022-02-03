@@ -9,6 +9,9 @@ module.exports = {
       borderWidth: {
         1: "1px",
       },
+      fontFamily: {
+        quicksand: ["Quicksand", "sans-serif"],
+      },
     },
   },
   plugins: [],
