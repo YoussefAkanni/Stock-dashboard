@@ -12,6 +12,10 @@ module.exports = {
       fontFamily: {
         quicksand: ["Quicksand", "sans-serif"],
       },
+      gridTemplateRows: {
+        7: "reapeat(7, minmax(0,1fr))",
+        8: "reapeat(8, minmax(0,1fr))",
+      },
     },
   },
   plugins: [],
