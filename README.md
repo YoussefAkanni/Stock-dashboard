@@ -1,11 +1,13 @@
-# ToDoList in React
+# Stock Dashboard
 
-First project with ReactJs
+Dashboard project with search bar,filter,api data 
 
 Using:
 
 > React.js  
 > Tailwind 
 
+## Preview
 
+![overview](./public/capture.png)
 
