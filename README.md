@@ -9,5 +9,5 @@ Using:
 
 ## Preview
 
-![overview](./public/capture.png)
+![overview](./public/Capture.PNG)
 
