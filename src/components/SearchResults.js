@@ -1,8 +1,10 @@
 import React, { useContext } from "react";
 import ThemeContext from "../context/ThemeContext";
+import StockContext from "../context/StockContext";
 
 const SearchResults = ({ results }) => {
   const { darkMode } = useContext(ThemeContext);
+  const { setStockSymbol } = useContext(StockContext);
 
   return (
     <ul
@@ -19,6 +21,9 @@ const SearchResults = ({ results }) => {
             className={`cursor-pointer p-4 m-2 flex justify-between items-center rounded-md ${
               darkMode ? "hover:bg-indigo-600" : "hover:bg-indigo-200"
             }`}
+            onClick={() => {
+              setStockSymbol(item.symbol);
+            }}
           >
             <span>{item.symbol} </span>
             <span>{item.description} </span>
