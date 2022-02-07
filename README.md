@@ -1,6 +1,6 @@
 # Stock Dashboard
 
-Dashboard project with search bar,filter,api data 
+Dashboard project with search bar,filter,dark mode,api data 
 
 
 Using:
