@@ -8,7 +8,7 @@ Using:
 > React.js  
 > Tailwind
 
-##Link 
+## Link 
 https://stock-dashboard-mu.vercel.app/
 
 ## Preview
